@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17190" started-at="2021-01-07T03:05:34Z" finished-at="2021-01-07T03:05:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17190" started-at="2021-01-07T03:05:34Z" finished-at="2021-01-07T03:05:51Z">
+      <class name="com.maven1.com.demo.DownloadPageTest">
+        <test-method status="PASS" signature="LinksVerify()[pri:1, instance:com.maven1.com.demo.DownloadPageTest@1dd02175]" name="LinksVerify" duration-ms="1749" started-at="2021-01-07T03:05:46Z" finished-at="2021-01-07T03:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinksVerify -->
+        <test-method status="PASS" signature="clickJavaLink()[pri:2, instance:com.maven1.com.demo.DownloadPageTest@1dd02175]" name="clickJavaLink" duration-ms="2821" started-at="2021-01-07T03:05:48Z" finished-at="2021-01-07T03:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickJavaLink -->
+      </class> <!-- com.maven1.com.demo.DownloadPageTest -->
+      <class name="com.maven1.com.demo.DashboardPageTest">
+        <test-method status="PASS" signature="verifyCourses()[pri:1, instance:com.maven1.com.demo.DashboardPageTest@62fdb4a6]" name="verifyCourses" duration-ms="802" started-at="2021-01-07T03:05:40Z" finished-at="2021-01-07T03:05:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCourses -->
+        <test-method status="PASS" signature="Userslink()[pri:2, instance:com.maven1.com.demo.DashboardPageTest@62fdb4a6]" name="Userslink" duration-ms="454" started-at="2021-01-07T03:05:47Z" finished-at="2021-01-07T03:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Userslink -->
+        <test-method status="PASS" signature="verifyDownloadLink()[pri:3, instance:com.maven1.com.demo.DashboardPageTest@62fdb4a6]" name="verifyDownloadLink" duration-ms="745" started-at="2021-01-07T03:05:51Z" finished-at="2021-01-07T03:05:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDownloadLink -->
+      </class> <!-- com.maven1.com.demo.DashboardPageTest -->
+      <class name="com.maven1.com.demo.UserPageTest">
+        <test-method status="PASS" signature="verifyDeleteButton()[pri:1, instance:com.maven1.com.demo.UserPageTest@11e21d0e]" name="verifyDeleteButton" duration-ms="4879" started-at="2021-01-07T03:05:41Z" finished-at="2021-01-07T03:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteButton -->
+      </class> <!-- com.maven1.com.demo.UserPageTest -->
+      <class name="com.maven1.com.demo.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.maven1.com.demo.LoginTest@b59d31]" name="setup" is-config="true" duration-ms="68365" started-at="2021-01-07T03:04:26Z" finished-at="2021-01-07T03:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.maven1.com.demo.LoginTest@b59d31]" name="loginTest" duration-ms="5636" started-at="2021-01-07T03:05:34Z" finished-at="2021-01-07T03:05:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.maven1.com.demo.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

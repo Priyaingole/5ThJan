@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="10" name="Test(failed)">
+    <classes>
+      <class name="com.maven1.com.demo.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.maven1.com.demo.LoginTest -->
+      <class name="com.maven1.com.demo.DashboardPageTest">
+        <methods>
+          <include name="Userslink"/>
+          <include name="verifyDownloadLink"/>
+          <include name="verifyCourses"/>
+        </methods>
+      </class> <!-- com.maven1.com.demo.DashboardPageTest -->
+      <class name="com.maven1.com.demo.UserPageTest">
+        <methods>
+          <include name="verifyDeleteButton"/>
+        </methods>
+      </class> <!-- com.maven1.com.demo.UserPageTest -->
+      <class name="com.maven1.com.demo.DownloadPageTest">
+        <methods>
+          <include name="clickJavaLink"/>
+          <include name="LinksVerify"/>
+        </methods>
+      </class> <!-- com.maven1.com.demo.DownloadPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

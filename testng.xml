@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10">
+  <test  name="Test" >
+    <classes>
+     <class name="com.maven1.com.demo.AppTest"/>
+      <class name="com.maven1.com.demo.LoginTest"/>
+    <class name="com.maven1.com.demo.DashboardPageTest"/> 
+          <class name="com.maven1.com.demo.UserPageTest"/>
+        <class name="com.maven1.com.demo.DownloadPageTest"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
